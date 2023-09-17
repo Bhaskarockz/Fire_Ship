@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(5, 0, 36);
+    
+}
+#canvas1{
+    border: 5px solid rgb(255, 89, 89);
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*background-color: rgb(156, 180, 223);*/
+    max-width: 100%;
+    max-height: 100%; 
+}
+#player,#background,#enemy2{
+    display:none;
+}
